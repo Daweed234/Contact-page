@@ -1,0 +1,30 @@
+open terminal
+
+create a new package json file
+npm init -y to open package.json
+
+npm install tailwindcss
+to open package-lock.json and node modules
+
+make two folders one named public and another one src
+in src make styles.css 
+
+In this file we import some css from tailwindcss.com
+
+go in package.json and remove the "scripts:"{
+    text............
+}
+change this to "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+
+to run a script we write "npm run build-css"
+
+make an index.html in public folder
+
+tailwindcss config
+
+go in terminal
+
+write "npx tailwindcss init --full"
+
+change its name to tailwind-default.config.js
+ "npx tailwindcss init"
